@@ -1,0 +1,179 @@
+
+{
+  "section": {
+    "eyebrow": "STUDENT SUCCESS STORIES",
+    "title": "Real Skills. Real Growth.",
+    "description": "Explore how practical learning helps students develop technical skills and prepare for future opportunities.",
+    "footer": "Every journey starts with learning."
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Student 01",
+      "course": "Full Stack Development",
+      "rating": 5,
+      "review": "The practical exercises helped me understand frontend and backend development and how both work together.",
+      "approved": true
+    },
+    {
+      "id": 2,
+      "name": "Student 02",
+      "course": "Data Science",
+      "rating": 5,
+      "review": "The examples helped me explore data analysis concepts and understand how data can be used to solve problems.",
+      "approved": true
+    },
+    {
+      "id": 3,
+      "name": "Student 03",
+      "course": "Python Programming",
+      "rating": 5,
+      "review": "Practising Python through small exercises helped me understand programming fundamentals more clearly.",
+      "approved": true
+    },
+    {
+      "id": 4,
+      "name": "Student 04",
+      "course": "Digital Marketing",
+      "rating": 5,
+      "review": "The activities introduced me to campaign planning, content strategy and digital marketing fundamentals.",
+      "approved": true
+    },
+    {
+      "id": 5,
+      "name": "Student 05",
+      "course": "15-Day Training",
+      "rating": 5,
+      "review": "The training provided an opportunity to practise new skills, ask questions and improve my understanding step by step.",
+      "approved": true
+    },
+    {
+      "id": 6,
+      "name": "Student 06",
+      "course": "React JS",
+      "rating": 5,
+      "review": "Learning components, props and state through examples helped me understand interactive web applications.",
+      "approved": true
+    },
+    {
+      "id": 7,
+      "name": "Student 07",
+      "course": "Web Development",
+      "rating": 5,
+      "review": "The HTML, CSS and JavaScript exercises helped me practise responsive layouts and frontend fundamentals.",
+      "approved": true
+    },
+    {
+      "id": 8,
+      "name": "Student 08",
+      "course": "Data Analytics",
+      "rating": 5,
+      "review": "The practical tasks helped me understand data organisation, analysis and visual presentation.",
+      "approved": true
+    },
+    {
+      "id": 9,
+      "name": "Student 09",
+      "course": "UI/UX Design",
+      "rating": 5,
+      "review": "The design exercises helped me explore user flows, visual hierarchy and interface layouts.",
+      "approved": true
+    },
+    {
+      "id": 10,
+      "name": "Student 10",
+      "course": "Node JS",
+      "rating": 5,
+      "review": "The examples helped me understand server-side development, API routes and backend fundamentals.",
+      "approved": true
+    },
+    {
+      "id": 11,
+      "name": "Student 11",
+      "course": "MongoDB",
+      "rating": 5,
+      "review": "Practising database operations helped me understand documents, collections and CRUD concepts.",
+      "approved": true
+    },
+    {
+      "id": 12,
+      "name": "Student 12",
+      "course": "JavaScript",
+      "rating": 5,
+      "review": "Working through functions, arrays, events and DOM examples made the fundamentals easier to practise.",
+      "approved": true
+    },
+    {
+      "id": 13,
+      "name": "Student 13",
+      "course": "Artificial Intelligence",
+      "rating": 5,
+      "review": "The introductory exercises helped me explore AI concepts and their possible practical applications.",
+      "approved": true
+    },
+    {
+      "id": 14,
+      "name": "Student 14",
+      "course": "MS Office",
+      "rating": 5,
+      "review": "Hands-on exercises helped me practise documents, spreadsheets and presentations.",
+      "approved": true
+    },
+    {
+      "id": 15,
+      "name": "Student 15",
+      "course": "Cyber Security",
+      "rating": 5,
+      "review": "The lessons introduced useful security concepts and everyday practices for safer digital activity.",
+      "approved": true
+    },
+    {
+      "id": 16,
+      "name": "Student 16",
+      "course": "MERN Stack",
+      "rating": 5,
+      "review": "The learning activities helped me understand how React, Node, Express and MongoDB fit into a web application.",
+      "approved": true
+    },
+    {
+      "id": 17,
+      "name": "Student 17",
+      "course": "Video Editing",
+      "rating": 5,
+      "review": "The editing exercises helped me explore timelines, transitions and visual storytelling basics.",
+      "approved": true
+    },
+    {
+      "id": 18,
+      "name": "Student 18",
+      "course": "Digital Marketing",
+      "rating": 5,
+      "review": "The activities helped me learn about audience targeting, content ideas and online campaign planning.",
+      "approved": true
+    },
+    {
+      "id": 19,
+      "name": "Student 19",
+      "course": "Frontend Development",
+      "rating": 5,
+      "review": "Building responsive interfaces helped me understand how websites adapt to different screen sizes.",
+      "approved": true
+    },
+    {
+      "id": 20,
+      "name": "Student 20",
+      "course": "Full Stack Internship",
+      "rating": 5,
+      "review": "Project-based exercises gave me opportunities to practise development workflows and connect application features.",
+      "approved": true
+    },
+    {
+      "id": 21,
+      "name": "Student 21",
+      "course": "Data Science Internship",
+      "rating": 5,
+      "review": "The data tasks helped me practise analysis concepts and explore a structured data workflow.",
+      "approved": true
+    }
+  ]
+}

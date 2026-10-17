@@ -1,0 +1,557 @@
+/* =========================================
+   HOME INTERNSHIP SECTION
+========================================= */
+
+.home-internship {
+  width: 100%;
+  padding: 110px 0;
+  background: #f7f9fc;
+  overflow: hidden;
+}
+
+.home-internship-container {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+/* =========================================
+   HEADER
+========================================= */
+
+.home-internship-header {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 70px;
+  align-items: end;
+  margin-bottom: 55px;
+}
+
+.home-internship-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #2563eb;
+}
+
+.home-internship-eyebrow::before {
+  content: "";
+  width: 28px;
+  height: 2px;
+  background: #2563eb;
+}
+
+.home-internship-header h2 {
+  margin: 0;
+
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 1.05;
+  font-weight: 700;
+  letter-spacing: -2px;
+  color: #101828;
+}
+
+.home-internship-header h2 span {
+  color: #2563eb;
+}
+
+.home-internship-header p {
+  margin: 0;
+  max-width: 480px;
+
+  font-size: 16px;
+  line-height: 1.8;
+  color: #667085;
+}
+
+/* =========================================
+   INFO
+========================================= */
+
+.home-internship-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  border-top: 1px solid #e4e7ec;
+  border-bottom: 1px solid #e4e7ec;
+
+  margin-bottom: 45px;
+}
+
+.home-internship-info-item {
+  padding: 25px 20px;
+
+  border-right: 1px solid #e4e7ec;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.home-internship-info-item:last-child {
+  border-right: none;
+}
+
+.home-internship-info-item strong {
+  font-size: 28px;
+  font-weight: 700;
+  color: #101828;
+}
+
+.home-internship-info-item span {
+  font-size: 13px;
+  color: #667085;
+}
+
+/* =========================================
+   GRID
+========================================= */
+
+.home-internship-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+/* =========================================
+   CARD
+========================================= */
+
+.home-internship-card {
+  position: relative;
+
+  min-width: 0;
+  padding: 28px;
+
+  background: #ffffff;
+
+  border: 1px solid #e4e7ec;
+  border-radius: 18px;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+
+  overflow: hidden;
+}
+
+.home-internship-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 3px;
+
+  background: #2563eb;
+
+  transform: scaleX(0);
+  transform-origin: left;
+
+  transition: transform 0.3s ease;
+}
+
+.home-internship-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow: 0 20px 50px rgba(16, 24, 40, 0.09);
+
+  border-color: #d0d5dd;
+}
+
+.home-internship-card:hover::before {
+  transform: scaleX(1);
+}
+
+/* =========================================
+   CARD TOP
+========================================= */
+
+.home-internship-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 25px;
+}
+
+.home-internship-icon {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 13px;
+
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.home-internship-card-top > span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #98a2b3;
+}
+
+/* =========================================
+   CARD CONTENT
+========================================= */
+
+.home-internship-card-content small {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+
+  color: #2563eb;
+}
+
+.home-internship-card-content h3 {
+  margin: 0 0 15px;
+
+  font-size: 21px;
+  line-height: 1.25;
+
+  color: #101828;
+}
+
+.home-internship-duration {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  font-size: 13px;
+  color: #667085;
+}
+
+/* =========================================
+   SKILLS
+========================================= */
+
+.home-internship-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  margin: 24px 0;
+}
+
+.home-internship-skills span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+
+  padding: 7px 10px;
+
+  border-radius: 7px;
+
+  background: #f2f4f7;
+
+  font-size: 11px;
+  color: #475467;
+}
+
+/* =========================================
+   APPLY BUTTON
+========================================= */
+
+.home-internship-apply {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 12px 15px;
+
+  border-radius: 9px;
+
+  background: #101828;
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  transition: background 0.25s ease;
+}
+
+.home-internship-apply:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+/* =========================================
+   BOTTOM CTA
+========================================= */
+
+.home-internship-bottom {
+  margin-top: 55px;
+
+  padding: 35px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+
+  border-radius: 20px;
+
+  background: #101828;
+  color: #ffffff;
+
+  overflow: hidden;
+}
+
+.home-internship-bottom > div:first-child {
+  min-width: 0;
+}
+
+.home-internship-bottom span {
+  display: block;
+
+  margin-bottom: 10px;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+
+  color: #98a2b3;
+}
+
+.home-internship-bottom h3 {
+  margin: 0;
+
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.2;
+}
+
+.home-internship-bottom h3 em {
+  color: #60a5fa;
+  font-style: normal;
+}
+
+.home-internship-bottom p {
+  margin: 10px 0 0;
+
+  font-size: 14px;
+  color: #98a2b3;
+}
+
+.home-internship-view-btn {
+  flex-shrink: 0;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+
+  padding: 13px 19px;
+
+  border-radius: 9px;
+
+  background: #2563eb;
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  transition: background 0.25s ease;
+}
+
+.home-internship-view-btn:hover {
+  background: #1d4ed8;
+  color: #ffffff;
+}
+
+/* =========================================
+   HOME SERVICES SECTION
+========================================= */
+
+.home-services-section {
+  width: 100%;
+  padding: 110px 0;
+
+  background: #ffffff;
+}
+
+.home-section-container {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.home-section-heading {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+
+  gap: 60px;
+
+  align-items: end;
+
+  margin-bottom: 50px;
+}
+
+.home-section-heading > div > span {
+  display: inline-block;
+
+  margin-bottom: 15px;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+  color: #2563eb;
+}
+
+.home-section-heading h2 {
+  margin: 0;
+
+  font-size: clamp(38px, 5vw, 58px);
+  line-height: 1.05;
+  letter-spacing: -2px;
+
+  color: #101828;
+}
+
+.home-section-heading h2 em {
+  color: #2563eb;
+  font-style: normal;
+}
+
+.home-section-heading p {
+  margin: 0;
+
+  font-size: 16px;
+  line-height: 1.8;
+
+  color: #667085;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 900px) {
+
+  .home-internship {
+    padding: 80px 0;
+  }
+
+  .home-internship-header {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .home-internship-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-section-heading {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .home-internship-container,
+  .home-section-container {
+    width: min(100% - 28px, 1180px);
+  }
+
+  .home-internship {
+    padding: 65px 0;
+  }
+
+  .home-internship-header {
+    margin-bottom: 35px;
+  }
+
+  .home-internship-header h2 {
+    font-size: 40px;
+    letter-spacing: -1.5px;
+  }
+
+  .home-internship-header p {
+    font-size: 14px;
+  }
+
+  .home-internship-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-internship-info-item {
+    padding: 18px 14px;
+  }
+
+  .home-internship-info-item:nth-child(2) {
+    border-right: none;
+  }
+
+  .home-internship-info-item:nth-child(-n + 2) {
+    border-bottom: 1px solid #e4e7ec;
+  }
+
+  .home-internship-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .home-internship-card {
+    padding: 22px;
+  }
+
+  .home-internship-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 28px 22px;
+  }
+
+  .home-internship-view-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .home-services-section {
+    padding: 70px 0;
+  }
+
+  .home-section-heading h2 {
+    font-size: 40px;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .home-internship-header h2,
+  .home-section-heading h2 {
+    font-size: 34px;
+  }
+
+  .home-internship-info-item strong {
+    font-size: 23px;
+  }
+
+  .home-internship-info-item span {
+    font-size: 11px;
+  }
+
+}

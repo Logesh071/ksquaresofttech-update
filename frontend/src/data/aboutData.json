@@ -1,0 +1,137 @@
+{
+  "hero": {
+    "eyebrow": "ABOUT KSQUARE SOFTTECH",
+    "title": "Learn Today.",
+    "highlight": "Build Tomorrow.",
+    "description": "We help students, freshers and aspiring professionals develop practical IT skills and become ready for real-world opportunities."
+  },
+  "intro": {
+    "eyebrow": "WHO WE ARE",
+    "title": "Practical learning.",
+    "highlight": "Real-world skills.",
+    "paragraphs": [
+      "KSQUARE SOFTTECH is focused on providing practical, industry-oriented IT education for students and aspiring professionals.",
+      "Our learning approach goes beyond classroom theory. Students learn technologies, practice coding, build projects and understand how real digital products are developed."
+    ]
+  },
+  "features": [
+    {
+      "icon": "graduation",
+      "title": "Industry-Focused Training",
+      "description": "Learn technologies that are relevant to today's IT industry."
+    },
+    {
+      "icon": "code",
+      "title": "Hands-On Learning",
+      "description": "Practice concepts through coding and practical assignments."
+    },
+    {
+      "icon": "briefcase",
+      "title": "Real-World Projects",
+      "description": "Build projects that improve technical confidence."
+    }
+  ],
+  "visual": {
+    "miniLabel": "KSQUARE / LEARNING SYSTEM",
+    "title": "BUILD. CODE. DEPLOY.",
+    "codeLines": [
+      "const skills = [",
+      "  React, Python, AI, Data",
+      "];",
+      "",
+      "student.build(skills);",
+      "career.ready(true);"
+    ],
+    "progress": [
+      {
+        "label": "Technical Skills",
+        "value": 90
+      },
+      {
+        "label": "Practical Projects",
+        "value": 85
+      },
+      {
+        "label": "Career Readiness",
+        "value": 95
+      }
+    ],
+    "skills": [
+      "React",
+      "Python",
+      "AI / ML",
+      "Data Science",
+      "UI/UX",
+      "Digital Marketing"
+    ]
+  },
+  "floatingCards": [
+    {
+      "icon": "users",
+      "small": "LEARNING",
+      "title": "Student Focused"
+    },
+    {
+      "icon": "target",
+      "small": "APPROACH",
+      "title": "Career Oriented"
+    }
+  ],
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Students"
+    },
+    {
+      "value": "10+",
+      "label": "IT Courses"
+    },
+    {
+      "value": "50+",
+      "label": "Projects"
+    },
+    {
+      "value": "100%",
+      "label": "Practical Focus"
+    }
+  ],
+  "why": {
+    "eyebrow": "WHY KSQUARE SOFTTECH",
+    "title": "More than a course.",
+    "highlight": "A complete learning experience.",
+    "items": [
+      {
+        "number": "01",
+        "icon": "graduation",
+        "title": "Expert Training",
+        "description": "Learn with structured training and practical guidance.",
+        "check": "Practical approach"
+      },
+      {
+        "number": "02",
+        "icon": "code",
+        "title": "Hands-On Practice",
+        "description": "Improve your skills through coding and assignments.",
+        "check": "Learn by doing"
+      },
+      {
+        "number": "03",
+        "icon": "briefcase",
+        "title": "Real Projects",
+        "description": "Work on projects that simulate real development.",
+        "check": "Project experience"
+      },
+      {
+        "number": "04",
+        "icon": "rocket",
+        "title": "Career Growth",
+        "description": "Build confidence and prepare for your IT career.",
+        "check": "Career focused"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "START YOUR IT JOURNEY",
+    "title": "Ready to build your career?"
+  }
+}

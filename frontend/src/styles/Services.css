@@ -1,0 +1,546 @@
+/* =========================================================
+   SERVICES PAGE
+   KSQUARE SOFTTECH
+========================================================= */
+
+.services-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #f7f9fc;
+  color: #111827;
+  overflow-x: hidden;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.services-hero {
+  position: relative;
+  width: 100%;
+  padding: 125px 24px 70px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.services-hero::before {
+  content: "";
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  top: -250px;
+  right: -150px;
+  border-radius: 50%;
+  background: #eff6ff;
+  filter: blur(10px);
+  pointer-events: none;
+}
+
+.services-hero::after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  bottom: -200px;
+  left: -120px;
+  border-radius: 50%;
+  background: #f5f3ff;
+  pointer-events: none;
+}
+
+.services-hero-inner {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+  max-width: 1180px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   HERO TEXT
+========================================================= */
+
+.services-eyebrow {
+  display: inline-block;
+
+  margin-bottom: 18px;
+
+  color: #2563eb;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.services-hero h1 {
+  margin: 0;
+
+  color: #111827;
+
+  font-size: clamp(48px, 6.5vw, 78px);
+  line-height: 0.98;
+
+  font-weight: 800;
+
+  letter-spacing: -0.06em;
+}
+
+.services-hero h1 span {
+  color: #2563eb;
+}
+
+.services-hero p {
+  max-width: 650px;
+
+  margin: 25px 0 0;
+
+  color: #64748b;
+
+  font-size: 17px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   SERVICE LIST SECTION
+========================================================= */
+
+.services-list-section {
+  width: 100%;
+
+  padding: 0 24px 90px;
+
+  background: #f7f9fc;
+}
+
+.services-list-container {
+  width: 100%;
+  max-width: 1180px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   SERVICE GRID
+========================================================= */
+
+.services-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 22px;
+
+  width: 100%;
+}
+
+
+/* =========================================================
+   SERVICE CARD
+========================================================= */
+
+.service-card {
+  --service-color: #2563eb;
+  --service-light: #eff6ff;
+  --service-border: #bfdbfe;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  min-height: 335px;
+
+  padding: 32px;
+
+  background: #ffffff;
+
+  border: 1px solid var(--service-border);
+
+  border-radius: 24px;
+
+  overflow: hidden;
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+
+/* Background decoration */
+
+.service-card::before {
+  content: "";
+
+  position: absolute;
+
+  width: 230px;
+  height: 230px;
+
+  top: -130px;
+  right: -100px;
+
+  border-radius: 50%;
+
+  background: var(--service-light);
+
+  transition: transform 0.45s ease;
+
+  pointer-events: none;
+}
+
+.service-card::after {
+  content: "";
+
+  position: absolute;
+
+  width: 120px;
+  height: 120px;
+
+  bottom: -70px;
+  left: -50px;
+
+  border-radius: 50%;
+
+  background: var(--service-light);
+
+  opacity: 0.6;
+
+  pointer-events: none;
+}
+
+.service-card:hover {
+  transform: translateY(-7px);
+
+  border-color: var(--service-color);
+
+  box-shadow:
+    0 25px 55px rgba(15, 23, 42, 0.09);
+}
+
+.service-card:hover::before {
+  transform: scale(1.35);
+}
+
+
+/* =========================================================
+   SERVICE COLORS
+========================================================= */
+
+/* WEB DEVELOPMENT */
+
+.service-blue {
+  --service-color: #2563eb;
+  --service-light: #eff6ff;
+  --service-border: #bfdbfe;
+}
+
+
+/* APP DEVELOPMENT */
+
+.service-purple {
+  --service-color: #7c3aed;
+  --service-light: #f5f3ff;
+  --service-border: #ddd6fe;
+}
+
+
+/* DIGITAL MARKETING */
+
+.service-orange {
+  --service-color: #ea580c;
+  --service-light: #fff7ed;
+  --service-border: #fed7aa;
+}
+
+
+/* VIDEO EDITING */
+
+.service-green {
+  --service-color: #059669;
+  --service-light: #ecfdf5;
+  --service-border: #a7f3d0;
+}
+
+
+/* =========================================================
+   CARD TOP
+========================================================= */
+
+.service-card-top {
+  position: relative;
+  z-index: 3;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* =========================================================
+   SERVICE ICON
+========================================================= */
+
+.service-card-icon {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  background: var(--service-light);
+
+  color: var(--service-color);
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.service-card:hover .service-card-icon {
+  transform: scale(1.06);
+}
+
+
+/* =========================================================
+   NUMBER
+========================================================= */
+
+.service-card-number {
+  color: #cbd5e1;
+
+  font-size: 13px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.05em;
+}
+
+
+/* =========================================================
+   CARD CONTENT
+========================================================= */
+
+.service-card-content {
+  position: relative;
+  z-index: 3;
+
+  margin-top: 55px;
+}
+
+.service-card-content h2 {
+  margin: 0 0 12px;
+
+  color: #111827;
+
+  font-size: 29px;
+
+  line-height: 1.1;
+
+  font-weight: 800;
+
+  letter-spacing: -0.035em;
+}
+
+.service-card-content p {
+  max-width: 510px;
+
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   CARD FOOTER
+========================================================= */
+
+.service-card-footer {
+  position: relative;
+  z-index: 3;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  margin-top: auto;
+
+  padding-top: 25px;
+
+  border-top: 1px solid #e2e8f0;
+}
+
+.service-card-footer > span {
+  color: #64748b;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   EXPLORE BUTTON
+========================================================= */
+
+.service-card-link {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 7px;
+
+  color: var(--service-color);
+
+  text-decoration: none;
+
+  font-size: 13px;
+
+  font-weight: 800;
+
+  transition:
+    gap 0.3s ease,
+    transform 0.3s ease;
+}
+
+.service-card-link:hover {
+  gap: 11px;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .services-hero {
+    padding-top: 110px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    min-height: 310px;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .services-hero {
+    padding:
+      105px
+      18px
+      55px;
+  }
+
+  .services-hero h1 {
+    font-size: 43px;
+  }
+
+  .services-hero p {
+    margin-top: 20px;
+
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .services-list-section {
+    padding:
+      0
+      18px
+      65px;
+  }
+
+  .service-card {
+    min-height: 300px;
+
+    padding: 25px;
+
+    border-radius: 20px;
+  }
+
+  .service-card-content {
+    margin-top: 45px;
+  }
+
+  .service-card-content h2 {
+    font-size: 25px;
+  }
+
+  .service-card-content p {
+    font-size: 13px;
+  }
+
+  .service-card-footer {
+    padding-top: 22px;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 400px) {
+
+  .services-hero {
+    padding-top: 95px;
+  }
+
+  .services-hero h1 {
+    font-size: 38px;
+  }
+
+  .service-card {
+    padding: 22px;
+  }
+
+  .service-card-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .service-card-content h2 {
+    font-size: 23px;
+  }
+
+  .service-card-footer > span {
+    font-size: 11px;
+  }
+
+  .service-card-link {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,39 @@
+
+[
+  {
+    "id": 1,
+    "title": "AI & Machine Learning Workshop",
+    "category": "WORKSHOP",
+    "date": "2026-11-15",
+    "time": "10:00 AM",
+    "mode": "Offline",
+    "location": "Coimbatore",
+    "description": "Discover artificial intelligence, machine learning and real-world applications.",
+    "image": "/events/ai-workshop.jpg",
+    "registrationLink": "/contact"
+  },
+  {
+    "id": 2,
+    "title": "Full Stack Development Bootcamp",
+    "category": "BOOTCAMP",
+    "date": "2026-11-22",
+    "time": "11:00 AM",
+    "mode": "Offline",
+    "location": "Coimbatore",
+    "description": "Explore React, Node.js, MongoDB and modern full-stack development.",
+    "image": "/events/fullstack-bootcamp.jpg",
+    "registrationLink": "/contact"
+  },
+  {
+    "id": 3,
+    "title": "IT Career Guidance Session",
+    "category": "CAREER",
+    "date": "2026-12-05",
+    "time": "02:00 PM",
+    "mode": "Online",
+    "location": "Online",
+    "description": "Learn about IT career opportunities, essential skills and interview preparation.",
+    "image": "/events/career-guidance.jpg",
+    "registrationLink": "/contact"
+  }
+]

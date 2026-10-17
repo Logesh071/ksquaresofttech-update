@@ -1,0 +1,145 @@
+
+.ks-why {
+  padding: 100px 20px;
+  background: #f7f9fc;
+  font-family: "Inter", sans-serif;
+}
+
+.ks-why-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ks-why-heading {
+  max-width: 760px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.ks-why-tag {
+  display: inline-block;
+  padding: 9px 17px;
+  border-radius: 30px;
+  background: #e8efff;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.ks-why-heading h2 {
+  margin: 22px 0 16px;
+  color: #0b1530;
+  font-size: clamp(32px, 5vw, 52px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.ks-why-heading h2 span {
+  color: #2563eb;
+}
+
+.ks-why-heading > p {
+  max-width: 620px;
+  margin: 0 auto;
+  color: #667085;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.ks-why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.ks-why-card {
+  position: relative;
+  padding: 28px 23px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e4eaf4;
+  border-radius: 20px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.ks-why-card:hover {
+  transform: translateY(-8px);
+  border-color: #b8ccff;
+  box-shadow: 0 20px 45px #0b153014;
+}
+
+.ks-why-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.ks-why-icon {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  background: #edf3ff;
+  font-size: 28px;
+}
+
+.ks-why-card-top > span {
+  color: #b6c8ee;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.ks-why-card h3 {
+  margin: 0 0 12px;
+  color: #0b1530;
+  font-size: 18px;
+}
+
+.ks-why-card > p {
+  margin: 0;
+  color: #667085;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.ks-why-line {
+  width: 35px;
+  height: 3px;
+  margin-top: 25px;
+  border-radius: 5px;
+  background: #2563eb;
+  transition: width 0.3s ease;
+}
+
+.ks-why-card:hover .ks-why-line {
+  width: 75px;
+}
+
+@media (max-width: 992px) {
+  .ks-why-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .ks-why {
+    padding: 60px 16px;
+  }
+
+  .ks-why-heading {
+    margin-bottom: 35px;
+  }
+
+  .ks-why-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .ks-why-card {
+    padding: 25px;
+  }
+}

@@ -1,0 +1,924 @@
+{
+  "section": {
+    "badge": "OUR COURSES",
+    "title": "Learn Skills That",
+    "highlight": "Build Careers.",
+    "description": "Industry-focused courses designed to help you learn practical skills, build real projects and become career ready.",
+    "ctaQuestion": "NOT SURE WHICH COURSE TO CHOOSE?",
+    "ctaText": "Let's find the right path for you.",
+    "ctaLabel": "Talk To Us"
+  },
+
+  "courses": [
+    {
+      "id": 1,
+      "title": "AI Enhanced Full Stack Development",
+      "short": "MERN + AI",
+      "slug": "ai-enhanced-full-stack-development",
+      "description": "Build modern full stack applications using React, Node.js, MongoDB and AI-powered development.",
+      "tags": ["React", "Node.js", "MongoDB", "AI"],
+      "icon": "layers",
+
+      "theme": {
+        "color": "#7C3AED",
+        "light": "#F3E8FF",
+        "border": "#DDD6FE",
+        "glow": "rgba(124, 58, 237, 0.25)",
+        "dark": "#2E1065"
+      },
+
+      "duration": "4 Months",
+      "level": "Beginner to Advanced",
+      "mode": "Offline + Online",
+
+      "heroText": "Become a modern Full Stack Developer with AI-powered development skills.",
+
+      "topics": [
+        {
+          "title": "HTML & CSS",
+          "description": "Build responsive and modern web interfaces.",
+          "items": [
+            "HTML5",
+            "Semantic HTML",
+            "CSS3",
+            "Flexbox",
+            "CSS Grid",
+            "Responsive Design"
+          ]
+        },
+        {
+          "title": "JavaScript",
+          "description": "Learn modern JavaScript for interactive applications.",
+          "items": [
+            "Variables",
+            "Functions",
+            "DOM",
+            "Events",
+            "ES6",
+            "Promises",
+            "Async / Await",
+            "Fetch API"
+          ]
+        },
+        {
+          "title": "React.js",
+          "description": "Build scalable frontend applications using React.",
+          "items": [
+            "Components",
+            "Props",
+            "State",
+            "Hooks",
+            "React Router",
+            "API Integration"
+          ]
+        },
+        {
+          "title": "Node.js",
+          "description": "Build backend applications using Node.js.",
+          "items": [
+            "Node.js",
+            "NPM",
+            "Modules",
+            "REST API",
+            "Authentication"
+          ]
+        },
+        {
+          "title": "Express.js",
+          "description": "Create RESTful backend services.",
+          "items": [
+            "Routing",
+            "Middleware",
+            "Controllers",
+            "REST API",
+            "Error Handling"
+          ]
+        },
+        {
+          "title": "MongoDB",
+          "description": "Work with NoSQL databases.",
+          "items": [
+            "MongoDB",
+            "Collections",
+            "Documents",
+            "CRUD",
+            "Mongoose"
+          ]
+        },
+        {
+          "title": "Authentication",
+          "description": "Build secure authentication systems.",
+          "items": [
+            "Register",
+            "Login",
+            "JWT",
+            "Protected Routes",
+            "Role Based Access"
+          ]
+        },
+        {
+          "title": "AI Enhanced Development",
+          "description": "Use AI tools to improve development productivity.",
+          "items": [
+            "AI Coding Tools",
+            "Prompt Engineering",
+            "AI Debugging",
+            "AI UI Development",
+            "AI API Integration"
+          ]
+        }
+      ],
+
+      "tools": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Git",
+        "GitHub",
+        "VS Code",
+        "AI Tools"
+      ],
+
+      "projects": [
+        "Portfolio Website",
+        "Authentication System",
+        "REST API Application",
+        "Full Stack Management System",
+        "AI Enhanced Full Stack Project"
+      ],
+
+      "outcomes": [
+        "Build responsive websites",
+        "Develop full stack applications",
+        "Create REST APIs",
+        "Work with MongoDB",
+        "Implement authentication",
+        "Use Git and GitHub",
+        "Deploy applications",
+        "Use AI tools for development"
+      ]
+    },
+
+    {
+      "id": 2,
+      "title": "Python Full Stack Development",
+      "short": "Python Full Stack",
+      "slug": "python-full-stack-development",
+      "description": "Learn frontend development, Python backend, databases and complete web application development.",
+      "tags": ["Python", "Django", "HTML", "SQL"],
+      "icon": "code",
+
+      "theme": {
+        "color": "#2563EB",
+        "light": "#EFF6FF",
+        "border": "#BFDBFE",
+        "glow": "rgba(37, 99, 235, 0.25)",
+        "dark": "#172554"
+      },
+
+      "duration": "4 Months",
+      "level": "Beginner to Advanced",
+      "mode": "Offline + Online",
+
+      "heroText": "Master Python-based full stack development and build real-world web applications.",
+
+      "topics": [
+        {
+          "title": "HTML & CSS",
+          "description": "Create responsive and professional web interfaces.",
+          "items": [
+            "HTML5",
+            "Semantic HTML",
+            "CSS3",
+            "Flexbox",
+            "CSS Grid",
+            "Responsive Design"
+          ]
+        },
+        {
+          "title": "JavaScript",
+          "description": "Learn frontend JavaScript for interactive applications.",
+          "items": [
+            "Variables",
+            "Functions",
+            "DOM",
+            "Events",
+            "ES6",
+            "Promises",
+            "Async / Await",
+            "Fetch API"
+          ]
+        },
+        {
+          "title": "Python Programming",
+          "description": "Build strong Python programming fundamentals.",
+          "items": [
+            "Variables",
+            "Data Types",
+            "Operators",
+            "Conditions",
+            "Loops",
+            "Functions",
+            "Lists",
+            "Tuples",
+            "Dictionaries",
+            "File Handling"
+          ]
+        },
+        {
+          "title": "Django",
+          "description": "Build powerful backend applications using Django.",
+          "items": [
+            "Django Setup",
+            "Project Structure",
+            "URLs",
+            "Views",
+            "Templates",
+            "Models",
+            "Forms",
+            "Authentication"
+          ]
+        },
+        {
+          "title": "Database",
+          "description": "Learn database concepts and SQL.",
+          "items": [
+            "Database Fundamentals",
+            "MySQL",
+            "Tables",
+            "Relationships",
+            "Queries",
+            "CRUD",
+            "Joins"
+          ]
+        },
+        {
+          "title": "REST API",
+          "description": "Create and consume APIs.",
+          "items": [
+            "HTTP Methods",
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE",
+            "JSON",
+            "API Integration"
+          ]
+        },
+        {
+          "title": "Authentication",
+          "description": "Create secure login and registration systems.",
+          "items": [
+            "Register",
+            "Login",
+            "Sessions",
+            "Authentication",
+            "Authorization",
+            "Protected Pages"
+          ]
+        },
+        {
+          "title": "Deployment",
+          "description": "Deploy applications online.",
+          "items": [
+            "Git",
+            "GitHub",
+            "Hosting",
+            "Domain",
+            "Environment Variables",
+            "Deployment"
+          ]
+        }
+      ],
+
+      "tools": [
+        "Python",
+        "Django",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "MySQL",
+        "Git",
+        "GitHub",
+        "VS Code"
+      ],
+
+      "projects": [
+        "Portfolio Website",
+        "Python CRUD Application",
+        "Student Management System",
+        "Django Authentication System",
+        "Python Full Stack Capstone Project"
+      ],
+
+      "outcomes": [
+        "Build responsive websites",
+        "Write Python applications",
+        "Develop Django applications",
+        "Work with MySQL",
+        "Build REST APIs",
+        "Create authentication systems",
+        "Use Git and GitHub",
+        "Deploy full stack applications"
+      ]
+    },
+
+    {
+      "id": 3,
+      "title": "Digital Marketing",
+      "short": "Digital Marketing",
+      "slug": "digital-marketing",
+      "description": "Learn social media, SEO, content marketing, advertising and practical digital marketing strategies.",
+      "tags": ["SEO", "Meta Ads", "Content", "Analytics"],
+      "icon": "megaphone",
+
+      "theme": {
+        "color": "#F97316",
+        "light": "#FFF7ED",
+        "border": "#FED7AA",
+        "glow": "rgba(249, 115, 22, 0.25)",
+        "dark": "#431407"
+      },
+
+      "duration": "3 Months",
+      "level": "Beginner to Advanced",
+      "mode": "Offline + Online",
+
+      "heroText": "Learn practical digital marketing strategies and grow brands online.",
+
+      "topics": [
+        {
+          "title": "Digital Marketing Fundamentals",
+          "description": "Understand the complete digital marketing ecosystem.",
+          "items": [
+            "Digital Marketing Basics",
+            "Marketing Funnel",
+            "Customer Journey",
+            "Brand Strategy"
+          ]
+        },
+        {
+          "title": "SEO",
+          "description": "Improve website visibility on search engines.",
+          "items": [
+            "Keyword Research",
+            "On Page SEO",
+            "Off Page SEO",
+            "Technical SEO",
+            "SEO Audit"
+          ]
+        },
+        {
+          "title": "Social Media Marketing",
+          "description": "Build and manage social media campaigns.",
+          "items": [
+            "Instagram Marketing",
+            "Facebook Marketing",
+            "Content Strategy",
+            "Hashtag Strategy",
+            "Reels Strategy"
+          ]
+        },
+        {
+          "title": "Meta Ads",
+          "description": "Create and optimize paid advertising campaigns.",
+          "items": [
+            "Campaign Setup",
+            "Audience Targeting",
+            "Ad Creatives",
+            "Lead Generation",
+            "Campaign Analytics"
+          ]
+        },
+        {
+          "title": "Content Marketing",
+          "description": "Create content strategies that attract audiences.",
+          "items": [
+            "Content Planning",
+            "Copywriting",
+            "Blog Content",
+            "Social Media Content",
+            "Content Calendar"
+          ]
+        }
+      ],
+
+      "tools": [
+        "Google Analytics",
+        "Google Search Console",
+        "Meta Ads",
+        "Canva",
+        "Google Business"
+      ],
+
+      "projects": [
+        "Business SEO Audit",
+        "Social Media Campaign",
+        "Meta Lead Generation Campaign",
+        "Complete Digital Marketing Campaign"
+      ],
+
+      "outcomes": [
+        "Run digital marketing campaigns",
+        "Perform SEO",
+        "Manage social media",
+        "Create Meta Ads",
+        "Analyze campaign performance",
+        "Build content strategies"
+      ]
+    },
+
+    {
+      "id": 4,
+      "title": "UI / UX Design",
+      "short": "UI / UX",
+      "slug": "ui-ux-design",
+      "description": "Create modern user interfaces and meaningful user experiences using professional design workflows.",
+      "tags": ["Figma", "UI Design", "UX", "Prototyping"],
+      "icon": "palette",
+
+      "theme": {
+        "color": "#EC4899",
+        "light": "#FDF2F8",
+        "border": "#FBCFE8",
+        "glow": "rgba(236, 72, 153, 0.25)",
+        "dark": "#500724"
+      },
+
+      "duration": "3 Months",
+      "level": "Beginner to Advanced",
+      "mode": "Offline + Online",
+
+      "heroText": "Design beautiful interfaces and meaningful digital experiences.",
+
+      "topics": [
+        {
+          "title": "UI Design",
+          "description": "Learn the fundamentals of modern interface design.",
+          "items": [
+            "Design Principles",
+            "Color Theory",
+            "Typography",
+            "Spacing",
+            "Layouts",
+            "Visual Hierarchy"
+          ]
+        },
+        {
+          "title": "UX Research",
+          "description": "Understand users and design solutions around their needs.",
+          "items": [
+            "User Research",
+            "User Personas",
+            "User Journey",
+            "Competitor Analysis",
+            "Problem Definition"
+          ]
+        },
+        {
+          "title": "Wireframing",
+          "description": "Create structured wireframes before visual design.",
+          "items": [
+            "Low Fidelity Wireframes",
+            "High Fidelity Wireframes",
+            "User Flow",
+            "Information Architecture"
+          ]
+        },
+        {
+          "title": "Figma",
+          "description": "Create professional UI designs using Figma.",
+          "items": [
+            "Figma Basics",
+            "Components",
+            "Auto Layout",
+            "Variants",
+            "Prototyping"
+          ]
+        }
+      ],
+
+      "tools": [
+        "Figma",
+        "FigJam",
+        "Canva",
+        "Adobe XD"
+      ],
+
+      "projects": [
+        "Mobile App Design",
+        "Website UI Design",
+        "Dashboard Design",
+        "Complete UX Case Study"
+      ],
+
+      "outcomes": [
+        "Create professional UI designs",
+        "Conduct UX research",
+        "Build wireframes",
+        "Create interactive prototypes",
+        "Build a design portfolio"
+      ]
+    },
+
+    {
+      "id": 5,
+      "title": "Python Programming",
+      "short": "Python",
+      "slug": "python-programming",
+      "description": "Build strong programming fundamentals and practical applications using Python.",
+      "tags": ["Python", "Logic", "Projects", "APIs"],
+      "icon": "code",
+
+      "theme": {
+        "color": "#0EA5E9",
+        "light": "#F0F9FF",
+        "border": "#BAE6FD",
+        "glow": "rgba(14, 165, 233, 0.25)",
+        "dark": "#082F49"
+      },
+
+      "duration": "2 Months",
+      "level": "Beginner",
+      "mode": "Offline + Online",
+
+      "heroText": "Build strong programming fundamentals and solve real problems using Python.",
+
+      "topics": [
+        {
+          "title": "Python Fundamentals",
+          "description": "Start programming from the basics.",
+          "items": [
+            "Python Introduction",
+            "Variables",
+            "Data Types",
+            "Operators",
+            "Input & Output"
+          ]
+        },
+        {
+          "title": "Control Statements",
+          "description": "Learn decisions and loops.",
+          "items": [
+            "if",
+            "if else",
+            "elif",
+            "for Loop",
+            "while Loop",
+            "break",
+            "continue"
+          ]
+        },
+        {
+          "title": "Functions",
+          "description": "Write reusable Python code.",
+          "items": [
+            "Functions",
+            "Parameters",
+            "Arguments",
+            "Return Values",
+            "Lambda Functions"
+          ]
+        },
+        {
+          "title": "Data Structures",
+          "description": "Work with Python data structures.",
+          "items": [
+            "Lists",
+            "Tuples",
+            "Sets",
+            "Dictionaries",
+            "List Comprehension"
+          ]
+        },
+        {
+          "title": "File Handling",
+          "description": "Read and write files using Python.",
+          "items": [
+            "Read Files",
+            "Write Files",
+            "Append Files",
+            "CSV Handling"
+          ]
+        },
+        {
+          "title": "Python Projects",
+          "description": "Apply your knowledge through projects.",
+          "items": [
+            "Calculator",
+            "Number Guessing Game",
+            "Student Mark Calculator",
+            "Contact Book",
+            "API Practice"
+          ]
+        }
+      ],
+
+      "tools": [
+        "Python",
+        "VS Code",
+        "Jupyter Notebook",
+        "Git",
+        "GitHub"
+      ],
+
+      "projects": [
+        "Calculator",
+        "Number Guessing Game",
+        "Student Mark Calculator",
+        "Contact Management System",
+        "Python Mini Project"
+      ],
+
+      "outcomes": [
+        "Understand programming fundamentals",
+        "Write Python programs",
+        "Work with data structures",
+        "Create reusable functions",
+        "Build practical Python projects"
+      ]
+    },
+
+    {
+      "id": 6,
+      "title": "AI / ML",
+      "short": "Artificial Intelligence",
+      "slug": "ai-ml",
+      "description": "Understand machine learning concepts and build practical AI-based solutions.",
+      "tags": ["Python", "ML", "AI", "Projects"],
+      "icon": "brain",
+
+      "theme": {
+        "color": "#8B5CF6",
+        "light": "#F5F3FF",
+        "border": "#DDD6FE",
+        "glow": "rgba(139, 92, 246, 0.25)",
+        "dark": "#2E1065"
+      },
+
+      "duration": "4 Months",
+      "level": "Intermediate",
+      "mode": "Offline + Online",
+
+      "heroText": "Learn machine learning concepts and build practical AI solutions.",
+
+      "topics": [
+        {
+          "title": "Python for AI",
+          "description": "Learn Python concepts required for AI.",
+          "items": [
+            "Python Basics",
+            "Functions",
+            "Data Structures",
+            "NumPy",
+            "Pandas"
+          ]
+        },
+        {
+          "title": "Data Preparation",
+          "description": "Prepare datasets for machine learning.",
+          "items": [
+            "Data Cleaning",
+            "Missing Values",
+            "Data Transformation",
+            "Feature Selection"
+          ]
+        },
+        {
+          "title": "Machine Learning",
+          "description": "Implement machine learning algorithms.",
+          "items": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Regression",
+            "Classification",
+            "Clustering"
+          ]
+        },
+        {
+          "title": "Model Evaluation",
+          "description": "Evaluate and improve ML models.",
+          "items": [
+            "Accuracy",
+            "Precision",
+            "Recall",
+            "F1 Score",
+            "Confusion Matrix"
+          ]
+        }
+      ],
+
+      "tools": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Scikit-learn",
+        "Jupyter"
+      ],
+
+      "projects": [
+        "House Price Prediction",
+        "Student Performance Prediction",
+        "Classification Project",
+        "Machine Learning Capstone"
+      ],
+
+      "outcomes": [
+        "Understand machine learning",
+        "Prepare datasets",
+        "Train ML models",
+        "Evaluate models",
+        "Build practical AI projects"
+      ]
+    },
+
+    {
+      "id": 7,
+      "title": "Data Science",
+      "short": "Data Science",
+      "slug": "data-science",
+      "description": "Learn data analysis, visualization, machine learning and data-driven problem solving.",
+      "tags": ["Python", "Pandas", "ML", "Visualization"],
+      "icon": "database",
+
+      "theme": {
+        "color": "#10B981",
+        "light": "#ECFDF5",
+        "border": "#A7F3D0",
+        "glow": "rgba(16, 185, 129, 0.25)",
+        "dark": "#022C22"
+      },
+
+      "duration": "4 Months",
+      "level": "Intermediate",
+      "mode": "Offline + Online",
+
+      "heroText": "Turn data into insights using Python, analytics and machine learning.",
+
+      "topics": [
+        {
+          "title": "Python for Data Science",
+          "description": "Learn Python tools used for data analysis.",
+          "items": [
+            "Python",
+            "NumPy",
+            "Pandas",
+            "Data Structures"
+          ]
+        },
+        {
+          "title": "Data Analysis",
+          "description": "Analyze datasets and identify patterns.",
+          "items": [
+            "Data Cleaning",
+            "Data Exploration",
+            "Data Transformation",
+            "Statistical Analysis"
+          ]
+        },
+        {
+          "title": "Data Visualization",
+          "description": "Present data using meaningful visualizations.",
+          "items": [
+            "Matplotlib",
+            "Charts",
+            "Graphs",
+            "Dashboards"
+          ]
+        },
+        {
+          "title": "Machine Learning",
+          "description": "Apply ML techniques to datasets.",
+          "items": [
+            "Regression",
+            "Classification",
+            "Clustering",
+            "Model Evaluation"
+          ]
+        }
+      ],
+
+      "tools": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Jupyter",
+        "Scikit-learn"
+      ],
+
+      "projects": [
+        "Sales Data Analysis",
+        "Customer Analysis",
+        "Data Visualization Project",
+        "Machine Learning Project"
+      ],
+
+      "outcomes": [
+        "Analyze datasets",
+        "Create visualizations",
+        "Perform data cleaning",
+        "Apply machine learning",
+        "Build data science projects"
+      ]
+    },
+
+    {
+      "id": 8,
+      "title": "Data Analytics",
+      "short": "Data Analytics",
+      "slug": "data-analytics",
+      "description": "Turn raw data into useful business insights using analytics tools and practical projects.",
+      "tags": ["Excel", "SQL", "Power BI", "Analytics"],
+      "icon": "chart",
+
+      "theme": {
+        "color": "#06B6D4",
+        "light": "#ECFEFF",
+        "border": "#A5F3FC",
+        "glow": "rgba(6, 182, 212, 0.25)",
+        "dark": "#083344"
+      },
+
+      "duration": "4 Months",
+      "level": "Beginner to Intermediate",
+      "mode": "Offline + Online",
+
+      "heroText": "Transform raw business data into meaningful insights and dashboards.",
+
+      "topics": [
+        {
+          "title": "Excel",
+          "description": "Master Excel for business data analysis.",
+          "items": [
+            "Formulas",
+            "Functions",
+            "Sorting",
+            "Filtering",
+            "Pivot Tables",
+            "Charts"
+          ]
+        },
+        {
+          "title": "SQL",
+          "description": "Query and analyze structured databases.",
+          "items": [
+            "SELECT",
+            "WHERE",
+            "GROUP BY",
+            "ORDER BY",
+            "JOINS",
+            "Subqueries"
+          ]
+        },
+        {
+          "title": "Power BI",
+          "description": "Create professional business dashboards.",
+          "items": [
+            "Power BI Basics",
+            "Data Import",
+            "Data Cleaning",
+            "Visualizations",
+            "Dashboard Design"
+          ]
+        },
+        {
+          "title": "Analytics",
+          "description": "Convert data into actionable business insights.",
+          "items": [
+            "Business Metrics",
+            "KPIs",
+            "Reports",
+            "Data Storytelling",
+            "Decision Making"
+          ]
+        }
+      ],
+
+      "tools": [
+        "Excel",
+        "SQL",
+        "Power BI",
+        "MySQL",
+        "Google Sheets"
+      ],
+
+      "projects": [
+        "Sales Dashboard",
+        "Business Analytics Dashboard",
+        "Customer Analytics",
+        "Power BI Capstone Project"
+      ],
+
+      "outcomes": [
+        "Analyze business data",
+        "Write SQL queries",
+        "Create Excel reports",
+        "Build Power BI dashboards",
+        "Generate business insights"
+      ]
+    }
+  ]
+}

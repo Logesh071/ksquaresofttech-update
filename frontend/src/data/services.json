@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development",
+    "slug": "web-development",
+    "icon": "web",
+    "color": "blue",
+    "description": "Modern, responsive and high-performance websites designed to grow your business.",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "₹8,999",
+        "oldPrice": "₹12,000",
+        "badge": "Starter",
+        "description": "Perfect for small businesses and personal brands.",
+        "features": [
+          "5 Pages Website",
+          "Responsive Design",
+          "Mobile Friendly",
+          "Contact Form",
+          "Basic SEO",
+          "1 Month Support"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹15,999",
+        "oldPrice": "₹22,000",
+        "badge": "Popular",
+        "description": "A professional website for growing businesses.",
+        "features": [
+          "10 Pages Website",
+          "Premium UI Design",
+          "Fully Responsive",
+          "Advanced SEO",
+          "Google Analytics",
+          "WhatsApp Integration",
+          "3 Months Support"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹29,999",
+        "oldPrice": "₹40,000",
+        "badge": "Business",
+        "description": "Advanced website solution with premium features.",
+        "features": [
+          "Unlimited Pages",
+          "Premium UI/UX",
+          "Advanced Animations",
+          "Advanced SEO",
+          "CMS Integration",
+          "Analytics Dashboard",
+          "Performance Optimization",
+          "6 Months Support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "App Development",
+    "slug": "app-development",
+    "icon": "app",
+    "color": "purple",
+    "description": "User-friendly and scalable mobile applications for modern businesses.",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "₹25,000",
+        "oldPrice": "₹35,000",
+        "badge": "Starter",
+        "description": "A simple mobile application for your business idea.",
+        "features": [
+          "Android Application",
+          "Up to 5 Screens",
+          "Responsive UI",
+          "Basic API Integration",
+          "Firebase Setup",
+          "1 Month Support"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹45,000",
+        "oldPrice": "₹60,000",
+        "badge": "Popular",
+        "description": "Professional mobile application for growing businesses.",
+        "features": [
+          "Android App",
+          "Up to 12 Screens",
+          "Custom UI/UX",
+          "API Integration",
+          "Authentication",
+          "Push Notifications",
+          "Database Integration",
+          "3 Months Support"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹75,000",
+        "oldPrice": "₹1,00,000",
+        "badge": "Advanced",
+        "description": "Complete scalable mobile application with advanced features.",
+        "features": [
+          "Android + iOS",
+          "Unlimited Screens",
+          "Premium UI/UX",
+          "REST API",
+          "Authentication",
+          "Payment Gateway",
+          "Push Notifications",
+          "Admin Dashboard",
+          "6 Months Support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing",
+    "slug": "digital-marketing",
+    "icon": "marketing",
+    "color": "orange",
+    "description": "Grow your brand with result-focused digital marketing strategies.",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "₹7,999",
+        "oldPrice": "₹10,000",
+        "badge": "Starter",
+        "description": "Basic online presence for small businesses.",
+        "features": [
+          "8 Creative Posts",
+          "4 Reels",
+          "Instagram Optimization",
+          "Hashtag Research",
+          "Monthly Report"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹14,999",
+        "oldPrice": "₹20,000",
+        "badge": "Popular",
+        "description": "Complete social media marketing package.",
+        "features": [
+          "15 Creative Posts",
+          "8 Reels",
+          "Meta Ads Setup",
+          "Audience Research",
+          "Content Strategy",
+          "Monthly Analytics",
+          "Google Business Optimization"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹24,999",
+        "oldPrice": "₹35,000",
+        "badge": "Growth",
+        "description": "Full-scale digital marketing and brand growth solution.",
+        "features": [
+          "25 Creative Posts",
+          "12 Reels",
+          "Meta Ads Management",
+          "Google Ads",
+          "Lead Generation",
+          "SEO Strategy",
+          "Content Strategy",
+          "Detailed Reports"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Video Editing",
+    "slug": "video-editing",
+    "icon": "video",
+    "color": "green",
+    "description": "Professional reels, promotional videos and creative content for your brand.",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "₹4,999",
+        "oldPrice": "₹7,000",
+        "badge": "Starter",
+        "description": "Essential editing for social media content.",
+        "features": [
+          "8 Reels",
+          "Basic Cuts",
+          "Transitions",
+          "Background Music",
+          "Basic Text Animation"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price": "₹9,999",
+        "oldPrice": "₹14,000",
+        "badge": "Popular",
+        "description": "Professional content package for active brands.",
+        "features": [
+          "15 Reels",
+          "Advanced Editing",
+          "Motion Graphics",
+          "Color Correction",
+          "Text Animation",
+          "Sound Effects"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "₹17,999",
+        "oldPrice": "₹25,000",
+        "badge": "Pro",
+        "description": "Premium video production and editing solution.",
+        "features": [
+          "25 Reels",
+          "Premium Motion Graphics",
+          "Advanced Color Grading",
+          "Cinematic Editing",
+          "Custom Animations",
+          "4K Export",
+          "Priority Support"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "hero": {
+    "badge": "Learn Skills. Build Careers.",
+    "title": "Build Your",
+    "words": [
+      "Digital Future.",
+      "Coding Skills.",
+      "AI Solutions.",
+      "Real Projects.",
+      "Your Career."
+    ],
+    "description": "Learn in-demand IT skills, build real-world projects and transform your ideas into powerful digital products with KSQUARE SOFTTECH.",
+    "buttons": {
+      "primary": "Explore Courses",
+      "secondary": "Our Services"
+    }
+  },
+
+  "stats": [
+    {
+      "value": 100,
+      "label": "Students"
+    },
+    {
+      "value": 10,
+      "label": "Courses"
+    },
+    {
+      "value": 50,
+      "label": "Projects"
+    }
+  ],
+
+  "floatingCards": {
+    "learning": {
+      "title": "Learning",
+      "text": "Real World Skills"
+    },
+    "building": {
+      "title": "Building",
+      "text": "Real Projects"
+    }
+  },
+
+  "industryMessage": "Learn. Build. Practice. Become Industry Ready.",
+
+  "programs": [
+    {
+      "id": 1,
+      "name": "Frontend Development",
+      "language": "React",
+      "code": "const student = {\n  skills: [\"HTML\", \"CSS\", \"React\"],\n  project: \"Real Website\",\n  github: true\n};\n\nbuildProject(student);",
+      "output": "Real project ready for GitHub"
+    },
+
+    {
+      "id": 2,
+      "name": "JavaScript Development",
+      "language": "JavaScript",
+      "code": "const problem = \"Build a real feature\";\n\nasync function solve() {\n  const data = await fetch(\"/api/users\");\n  return data.json();\n}\n\nsolve();",
+      "output": "API integrated successfully"
+    },
+
+    {
+      "id": 3,
+      "name": "Python Development",
+      "language": "Python",
+      "code": "def prepare_for_industry(student):\n    skills = student.skills\n    projects = student.projects\n\n    return skills + projects\n\nprepare_for_industry(student)",
+      "output": "Skills + Projects = Industry Ready"
+    },
+
+    {
+      "id": 4,
+      "name": "Java Development",
+      "language": "Java",
+      "code": "class StudentDeveloper {\n\n  public static void main(String[] args) {\n\n    String skill = \"Java\";\n    String project = \"Backend API\";\n\n    buildApplication(skill, project);\n  }\n}",
+      "output": "Backend application started successfully"
+    },
+
+    {
+      "id": 5,
+      "name": "Full Stack Development",
+      "language": "MERN",
+      "code": "const application = {\n  frontend: \"React\",\n  backend: \"Node.js\",\n  database: \"MongoDB\"\n};\n\ndeploy(application);",
+      "output": "Full Stack application deployed"
+    },
+
+    {
+      "id": 6,
+      "name": "MERN Stack",
+      "language": "MERN",
+      "code": "const developer = {\n  frontend: \"React\",\n  backend: \"Express\",\n  database: \"MongoDB\"\n};\n\nconst project = buildRealWorldApp(\n  developer\n);",
+      "output": "Real-world MERN project completed"
+    },
+
+    {
+      "id": 7,
+      "name": "Data Science",
+      "language": "Python",
+      "code": "import pandas as pd\n\ndata = pd.read_csv(\"business_data.csv\")\n\ninsight = data.groupby(\n  \"category\"\n)[\"sales\"].mean()\n\nprint(insight)",
+      "output": "Business insight generated from data"
+    },
+
+    {
+      "id": 8,
+      "name": "Data Analytics",
+      "language": "Python",
+      "code": "sales = load_data(\"sales.xlsx\")\n\ndashboard = analyze(\n  sales,\n  metrics=[\n    \"revenue\",\n    \"growth\",\n    \"customers\"\n  ]\n)\n\ncreate_dashboard(dashboard)",
+      "output": "Decision-ready analytics dashboard created"
+    },
+
+    {
+      "id": 9,
+      "name": "AI / ML",
+      "language": "Python",
+      "code": "from sklearn.model_selection import train_test_split\n\nX_train, X_test, y_train, y_test = (\n  train_test_split(X, y)\n)\n\nmodel.fit(X_train, y_train)\n\nprediction = model.predict(X_test)",
+      "output": "Machine learning model trained successfully"
+    },
+
+    {
+      "id": 10,
+      "name": "Digital Marketing",
+      "language": "Marketing",
+      "code": "const campaign = {\n  content: \"Short Form Video\",\n  platform: \"Instagram\",\n  audience: \"Students\",\n  goal: \"Lead Generation\"\n};\n\nmeasure(campaign);",
+      "output": "Campaign launched — results ready to measure"
+    }
+  ]
+}

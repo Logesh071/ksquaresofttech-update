@@ -1,0 +1,171 @@
+
+[
+  {
+    "id": 1,
+    "title": "Website Development",
+    "category": "Projects",
+    "description": "Modern and responsive website solutions",
+    "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 2,
+    "title": "App Development",
+    "category": "Projects",
+    "description": "Building innovative digital experiences",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 3,
+    "title": "Team Collaboration",
+    "category": "Team",
+    "description": "Ideas become impactful solutions",
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 4,
+    "title": "Technical Workshop",
+    "category": "Workshops",
+    "description": "Practical learning and innovation",
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 5,
+    "title": "UI UX Design",
+    "category": "Projects",
+    "description": "Creative interfaces for modern brands",
+    "image": "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 6,
+    "title": "Digital Marketing",
+    "category": "Projects",
+    "description": "Digital growth and brand visibility",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 7,
+    "title": "Coding Session",
+    "category": "Workshops",
+    "description": "Exploring modern development tools",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 8,
+    "title": "Business Website",
+    "category": "Projects",
+    "description": "Digital presence for growing businesses",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 9,
+    "title": "Creative Team",
+    "category": "Team",
+    "description": "Working together to achieve more",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 10,
+    "title": "Technology Event",
+    "category": "Events",
+    "description": "Discovering new technologies",
+    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 11,
+    "title": "Frontend Development",
+    "category": "Projects",
+    "description": "Building seamless web experiences",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 12,
+    "title": "Knowledge Sharing",
+    "category": "Workshops",
+    "description": "Sharing skills and technical knowledge",
+    "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 13,
+    "title": "Data Analytics",
+    "category": "Projects",
+    "description": "Turning data into useful insights",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 14,
+    "title": "Team Meeting",
+    "category": "Team",
+    "description": "Planning and solving challenges",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 15,
+    "title": "Creative Workspace",
+    "category": "Events",
+    "description": "An environment for fresh ideas",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 16,
+    "title": "Mobile Application",
+    "category": "Projects",
+    "description": "User-friendly mobile experiences",
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 17,
+    "title": "Learning Together",
+    "category": "Workshops",
+    "description": "Growing through hands-on learning",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 18,
+    "title": "Software Solutions",
+    "category": "Projects",
+    "description": "Technology designed for business needs",
+    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 19,
+    "title": "Project Presentation",
+    "category": "Events",
+    "description": "Presenting ideas with confidence",
+    "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 20,
+    "title": "Web Design Process",
+    "category": "Projects",
+    "description": "From concept to digital product",
+    "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 21,
+    "title": "Professional Training",
+    "category": "Workshops",
+    "description": "Developing career-ready skills",
+    "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 22,
+    "title": "Digital Innovation",
+    "category": "Projects",
+    "description": "Creative solutions for modern brands",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 23,
+    "title": "Team Brainstorming",
+    "category": "Team",
+    "description": "Turning ideas into action",
+    "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=85"
+  },
+  {
+    "id": 24,
+    "title": "Modern Technology",
+    "category": "Events",
+    "description": "Building a smarter digital future",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=85"
+  }
+]

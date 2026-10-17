@@ -1,0 +1,1787 @@
+/* =========================================================
+   HERO
+========================================================= */
+
+.ks-hero {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+
+  padding-top: 80px;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      135deg,
+      #ffffff 0%,
+      #f8fbff 50%,
+      #f1f6ff 100%
+    );
+
+  isolation: isolate;
+}
+
+
+/* =========================================================
+   SVG BACKGROUND
+========================================================= */
+
+.ks-svg-background {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+
+  pointer-events: none;
+
+  z-index: 0;
+}
+
+.ks-bg-svg {
+  width: 100%;
+  height: 100%;
+
+  animation:
+    ksBackgroundFloat
+    12s
+    ease-in-out
+    infinite
+    alternate;
+}
+
+@keyframes ksBackgroundFloat {
+
+  from {
+    transform: scale(1.01);
+  }
+
+  to {
+    transform:
+      scale(1.025)
+      translate3d(-6px, 4px, 0);
+  }
+}
+
+
+/* =========================================================
+   GLOW
+========================================================= */
+
+.ks-hero-glow {
+  position: absolute;
+
+  width: 430px;
+  height: 430px;
+
+  border-radius: 50%;
+
+  filter: blur(120px);
+
+  pointer-events: none;
+
+  z-index: 1;
+}
+
+.ks-glow-left {
+  left: -220px;
+  top: 120px;
+
+  background:
+    rgba(37, 99, 235, .13);
+}
+
+.ks-glow-right {
+  right: -220px;
+  top: 90px;
+
+  background:
+    rgba(6, 182, 212, .12);
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.ks-hero > .container {
+  position: relative;
+  z-index: 10;
+}
+
+
+/* =========================================================
+   HERO CONTENT
+========================================================= */
+
+.ks-hero-content {
+  position: relative;
+
+  max-width: 650px;
+
+  padding: 45px 0;
+
+  z-index: 20;
+}
+
+
+/* =========================================================
+   BADGE
+========================================================= */
+
+.ks-hero-badge {
+  width: fit-content;
+
+  display: inline-flex;
+  align-items: center;
+
+  gap: 9px;
+
+  padding: 9px 16px;
+
+  margin-bottom: 22px;
+
+  border:
+    1px solid
+    rgba(37, 99, 235, .18);
+
+  border-radius: 50px;
+
+  background:
+    rgba(239, 246, 255, .82);
+
+  backdrop-filter: blur(10px);
+
+  color: #2563eb;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.ks-badge-dot {
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: #2563eb;
+
+  box-shadow:
+    0 0 12px
+    rgba(37, 99, 235, .7);
+
+  animation:
+    badgePulse
+    1.8s
+    ease-in-out
+    infinite;
+}
+
+@keyframes badgePulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.35);
+  }
+}
+
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.ks-hero-title {
+  margin: 0;
+
+  color: #020617;
+
+  font-size:
+    clamp(44px, 5vw, 70px);
+
+  line-height: 1.02;
+
+  letter-spacing: -3.5px;
+
+  font-weight: 850;
+}
+
+.ks-title-fixed {
+  display: block;
+
+  color: #020617;
+}
+
+
+/* =========================================================
+   GRADIENT TEXT
+========================================================= */
+
+.ks-gradient-word {
+  display: block;
+
+  min-height: 1.1em;
+
+  background:
+    linear-gradient(
+      100deg,
+      #2563eb,
+      #4f46e5,
+      #7c3aed,
+      #06b6d4,
+      #2563eb
+    );
+
+  background-size: 250% auto;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  animation:
+    gradientMove
+    4s
+    linear
+    infinite;
+
+  transition:
+    opacity .4s ease,
+    transform .4s ease,
+    filter .4s ease;
+}
+
+@keyframes gradientMove {
+
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.ks-word-changing {
+  opacity: 0;
+
+  transform:
+    translateY(12px)
+    scale(.98);
+
+  filter: blur(5px);
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.ks-hero-description {
+  max-width: 620px;
+
+  margin: 24px 0 0;
+
+  color: #64748b;
+
+  font-size: 16px;
+
+  line-height: 1.75;
+}
+
+.ks-hero-description strong {
+  color: #334155;
+
+  font-weight: 750;
+}
+
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.ks-hero-buttons {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  margin-top: 30px;
+}
+
+.ks-hero-btn {
+  min-height: 50px;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  padding: 0 24px;
+
+  border-radius: 12px;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  transition: all .3s ease;
+}
+
+.ks-btn-primary {
+  color: #fff !important;
+
+  background:
+    linear-gradient(
+      100deg,
+      #2563eb,
+      #4f46e5,
+      #7c3aed
+    );
+
+  border:
+    1px solid
+    rgba(37, 99, 235, .4);
+
+  box-shadow:
+    0 14px 30px
+    rgba(79, 70, 229, .25);
+}
+
+.ks-btn-primary:hover {
+  color: #fff !important;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 20px 40px
+    rgba(79, 70, 229, .32);
+}
+
+.ks-btn-secondary {
+  color: #334155 !important;
+
+  background:
+    rgba(255, 255, 255, .82);
+
+  border:
+    1px solid #e2e8f0;
+}
+
+.ks-btn-secondary:hover {
+  color: #2563eb !important;
+
+  background: #eff6ff;
+
+  transform: translateY(-3px);
+}
+
+
+/* =========================================================
+   STATS
+========================================================= */
+
+.ks-hero-stats {
+  width: 100%;
+  max-width: 520px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  margin-top: 40px;
+
+  padding-top: 24px;
+
+  border-top:
+    1px solid
+    rgba(226, 232, 240, .8);
+}
+
+.ks-hero-stat {
+  padding-right: 20px;
+}
+
+.ks-hero-stat:not(:last-child) {
+  border-right:
+    1px solid
+    rgba(226, 232, 240, .8);
+}
+
+.ks-hero-stat:not(:first-child) {
+  padding-left: 20px;
+}
+
+.ks-hero-stat h3 {
+  margin: 0;
+
+  color: #020617;
+
+  font-size: 30px;
+
+  line-height: 1;
+
+  font-weight: 850;
+}
+
+.ks-hero-stat p {
+  margin: 8px 0 0;
+
+  color: #64748b;
+
+  font-size: 13px;
+}
+
+
+/* =========================================================
+   VISUAL
+========================================================= */
+
+.ks-hero-visual {
+  position: relative;
+
+  width: 100%;
+  max-width: 650px;
+
+  min-height: 600px;
+
+  margin: auto;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* =========================================================
+   CODE WINDOW
+========================================================= */
+
+.ks-code-window {
+  position: relative;
+
+  z-index: 15;
+
+  width: 82%;
+  max-width: 540px;
+
+  min-height: 475px;
+
+  margin-top: 60px;
+
+  padding: 17px;
+
+  border:
+    2px solid #dbeafe;
+
+  border-radius: 28px;
+
+  background:
+    rgba(2, 6, 23, .97);
+
+  box-shadow:
+    0 30px 80px
+    rgba(15, 23, 42, .25);
+
+  overflow: hidden;
+
+  transition:
+    opacity .4s ease,
+    transform .4s ease;
+}
+
+.ks-program-transition {
+  opacity: 0;
+
+  transform:
+    scale(.97)
+    translateY(8px);
+}
+
+
+/* =========================================================
+   ROBOT
+========================================================= */
+
+.ks-code-robot-background {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  pointer-events: none;
+}
+
+.ks-code-robot-background::after {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 3;
+
+  background:
+    radial-gradient(
+      circle at center,
+      transparent 0%,
+      rgba(2, 6, 23, .12) 38%,
+      rgba(2, 6, 23, .58) 100%
+    );
+}
+
+.ks-code-robot-background .ks-mini-robot {
+  position: relative;
+
+  z-index: 2;
+
+  transform: scale(.62);
+
+  opacity: .19;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   ROBOT BODY
+========================================================= */
+
+.ks-mini-robot {
+  position: relative;
+
+  width: 150px;
+  height: 235px;
+
+  animation:
+    miniRobotFloat
+    4s
+    ease-in-out
+    infinite;
+}
+
+@keyframes miniRobotFloat {
+
+  0%,
+  100% {
+    transform: translateY(4px);
+  }
+
+  50% {
+    transform: translateY(-9px);
+  }
+}
+
+.ks-mini-robot-aura {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  width: 190px;
+  height: 190px;
+
+  transform:
+    translate(-50%, -50%);
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(37, 99, 235, .35),
+      rgba(124, 58, 237, .15),
+      transparent 70%
+    );
+
+  filter: blur(15px);
+}
+
+.ks-mini-antenna {
+  position: absolute;
+
+  top: 4px;
+  left: 50%;
+
+  width: 2px;
+  height: 24px;
+
+  transform:
+    translateX(-50%);
+
+  background:
+    linear-gradient(
+      to bottom,
+      transparent,
+      #60a5fa
+    );
+}
+
+.ks-mini-antenna span {
+  position: absolute;
+
+  left: 50%;
+  top: -5px;
+
+  width: 8px;
+  height: 8px;
+
+  transform:
+    translateX(-50%);
+
+  border-radius: 50%;
+
+  background: #06b6d4;
+
+  box-shadow:
+    0 0 12px
+    rgba(6, 182, 212, .9);
+}
+
+.ks-mini-head {
+  position: absolute;
+
+  left: 50%;
+  top: 25px;
+
+  width: 108px;
+  height: 82px;
+
+  transform:
+    translateX(-50%);
+
+  border-radius: 27px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #fff,
+      #dbeafe
+    );
+
+  border:
+    2px solid
+    rgba(96, 165, 250, .35);
+}
+
+.ks-mini-face {
+  position: absolute;
+
+  inset: 14px;
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #07142e,
+      #101d3d
+    );
+}
+
+.ks-mini-eye {
+  position: absolute;
+
+  top: 20px;
+
+  width: 17px;
+  height: 10px;
+
+  border-radius: 50%;
+
+  background: #60a5fa;
+
+  box-shadow:
+    0 0 12px
+    rgba(96, 165, 250, .9);
+}
+
+.ks-mini-eye:first-child {
+  left: 17px;
+}
+
+.ks-mini-eye:nth-child(2) {
+  right: 17px;
+}
+
+.ks-mini-mouth {
+  position: absolute;
+
+  left: 50%;
+  bottom: 12px;
+
+  width: 24px;
+  height: 3px;
+
+  transform:
+    translateX(-50%);
+
+  border-radius: 20px;
+
+  background: #06b6d4;
+}
+
+.ks-mini-neck {
+  position: absolute;
+
+  left: 50%;
+  top: 106px;
+
+  width: 32px;
+  height: 15px;
+
+  transform:
+    translateX(-50%);
+
+  border-radius: 5px;
+
+  background: #dbeafe;
+}
+
+.ks-mini-body {
+  position: absolute;
+
+  left: 50%;
+  top: 116px;
+
+  width: 120px;
+  height: 90px;
+
+  transform:
+    translateX(-50%);
+
+  border-radius: 27px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #fff,
+      #dbeafe
+    );
+
+  border:
+    2px solid
+    rgba(96, 165, 250, .3);
+}
+
+.ks-mini-core {
+  width: 28px;
+  height: 28px;
+
+  margin: 15px auto 6px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 9px;
+
+  color: #fff;
+
+  background:
+    linear-gradient(
+      135deg,
+      #2563eb,
+      #7c3aed,
+      #06b6d4
+    );
+}
+
+.ks-mini-body-lines {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 3px;
+}
+
+.ks-mini-body-lines span {
+  width: 10px;
+  height: 2px;
+
+  border-radius: 10px;
+
+  background: #60a5fa;
+}
+
+.ks-mini-arm {
+  position: absolute;
+
+  top: 127px;
+
+  width: 18px;
+  height: 58px;
+
+  border-radius: 15px;
+
+  background:
+    linear-gradient(
+      180deg,
+      #fff,
+      #dbeafe
+    );
+}
+
+.ks-mini-arm-left {
+  left: 7px;
+
+  transform: rotate(13deg);
+}
+
+.ks-mini-arm-right {
+  right: 7px;
+
+  transform: rotate(-13deg);
+}
+
+.ks-mini-hand {
+  position: absolute;
+
+  left: 50%;
+  bottom: -9px;
+
+  width: 22px;
+  height: 22px;
+
+  transform:
+    translateX(-50%);
+
+  border-radius: 50%;
+
+  background: #eaf2ff;
+}
+
+.ks-mini-base {
+  position: absolute;
+
+  left: 50%;
+  bottom: 0;
+
+  width: 70px;
+  height: 14px;
+
+  transform:
+    translateX(-50%);
+
+  border-radius: 50%;
+
+  background:
+    linear-gradient(
+      90deg,
+      #dbeafe,
+      #fff,
+      #dbeafe
+    );
+}
+
+
+/* =========================================================
+   CODE HEADER
+========================================================= */
+
+.ks-code-header,
+.ks-program-info,
+.ks-industry-message,
+.ks-code-content,
+.ks-terminal,
+.ks-code-footer {
+  position: relative;
+  z-index: 5;
+}
+
+.ks-code-header {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  padding-bottom: 14px;
+
+  border-bottom:
+    1px solid #1e293b;
+}
+
+.ks-code-dots {
+  display: flex;
+  gap: 8px;
+}
+
+.ks-dot {
+  width: 12px;
+  height: 12px;
+
+  border-radius: 50%;
+}
+
+.ks-red {
+  background: #f87171;
+}
+
+.ks-yellow {
+  background: #facc15;
+}
+
+.ks-green {
+  background: #4ade80;
+}
+
+.ks-editor-title {
+  display: flex;
+
+  align-items: center;
+
+  gap: 5px;
+
+  color: #94a3b8;
+
+  font-family:
+    "Courier New",
+    monospace;
+
+  font-size: 10px;
+
+  white-space: nowrap;
+}
+
+.ks-code-url {
+  color: #475569;
+  font-size: 9px;
+}
+
+
+/* =========================================================
+   PROGRAM
+========================================================= */
+
+.ks-program-info {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 12px;
+
+  padding: 6px 8px;
+
+  border-radius: 7px;
+
+  background:
+    rgba(15, 23, 42, .65);
+
+  font-family:
+    "Courier New",
+    monospace;
+
+  font-size: 9px;
+}
+
+.ks-program-language {
+  display: flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  color: #60a5fa;
+}
+
+.ks-program-status {
+  display: flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  color: #64748b;
+}
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+}
+
+.status-dot.typing {
+  background: #facc15;
+}
+
+.status-dot.running {
+  background: #60a5fa;
+}
+
+.status-dot.success {
+  background: #4ade80;
+
+  box-shadow:
+    0 0 8px
+    rgba(74, 222, 128, .7);
+}
+
+
+/* =========================================================
+   INDUSTRY
+========================================================= */
+
+.ks-industry-message {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  margin-top: 10px;
+
+  color: #64748b;
+
+  font-size: 9px;
+
+  white-space: nowrap;
+}
+
+.industry-dot {
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+
+  background: #22c55e;
+}
+
+
+/* =========================================================
+   CODE AREA
+========================================================= */
+
+.ks-code-content {
+  display: flex;
+
+  width: 100%;
+
+  min-height: 270px;
+
+  margin-top: 8px;
+
+  padding-top: 10px;
+}
+
+.ks-line-numbers {
+  width: 28px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-end;
+
+  padding-right: 9px;
+
+  color: #334155;
+
+  font-family:
+    "Courier New",
+    monospace;
+
+  font-size: 10px;
+
+  line-height: 2;
+}
+
+.ks-line-numbers span {
+  height: 20px;
+}
+
+.ks-code-area {
+  flex: 1;
+
+  height: 260px;
+
+  overflow: hidden;
+}
+
+.ks-code-text {
+  margin: 0;
+
+  color: #94a3b8;
+
+  font-family:
+    "Courier New",
+    monospace;
+
+  font-size: 13px;
+
+  line-height: 2;
+
+  white-space: pre-wrap;
+}
+
+.typing-cursor,
+.output-cursor {
+  color: #60a5fa;
+
+  animation:
+    cursorBlink
+    .7s
+    infinite;
+}
+
+@keyframes cursorBlink {
+
+  0%,
+  45% {
+    opacity: 1;
+  }
+
+  46%,
+  100% {
+    opacity: 0;
+  }
+}
+
+
+/* =========================================================
+   TERMINAL
+========================================================= */
+
+.ks-terminal {
+  width: 100%;
+
+  height: 70px;
+
+  border:
+    1px solid #1e293b;
+
+  border-radius: 9px;
+
+  background: #030b16;
+
+  overflow: hidden;
+
+  opacity: .45;
+
+  transition: .3s ease;
+}
+
+.ks-terminal.terminal-visible {
+  opacity: 1;
+
+  border-color:
+    rgba(74, 222, 128, .3);
+}
+
+.ks-terminal-header {
+  height: 25px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 9px;
+
+  border-bottom:
+    1px solid #172033;
+}
+
+.ks-terminal-title {
+  display: flex;
+
+  align-items: center;
+
+  gap: 5px;
+
+  color: #64748b;
+
+  font-size: 8px;
+}
+
+.terminal-label {
+  color: #334155;
+
+  font-size: 7px;
+}
+
+.ks-terminal-body {
+  height: 44px;
+
+  display: flex;
+
+  align-items: center;
+
+  padding: 0 10px;
+}
+
+.terminal-running,
+.terminal-success {
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  font-family:
+    "Courier New",
+    monospace;
+
+  font-size: 9px;
+}
+
+.terminal-running {
+  color: #64748b;
+}
+
+.terminal-success {
+  color: #4ade80;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.ks-code-footer {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 12px;
+
+  padding-top: 12px;
+
+  border-top:
+    1px solid #1e293b;
+}
+
+.ks-code-status {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+}
+
+.ks-code-status span {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: #4ade80;
+}
+
+.ks-code-status small {
+  color: #64748b;
+
+  font-size: 9px;
+}
+
+.ks-editor-language {
+  color: #475569;
+
+  font-size: 8px;
+}
+
+
+/* =========================================================
+   FLOATING CARDS
+========================================================= */
+
+.ks-floating-card {
+  position: absolute;
+
+  z-index: 40;
+
+  width: 190px;
+  min-height: 76px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  padding: 13px;
+
+  border:
+    1px solid #dbeafe;
+
+  border-radius: 17px;
+
+  background:
+    rgba(255, 255, 255, .92);
+
+  backdrop-filter: blur(14px);
+
+  box-shadow:
+    0 20px 45px
+    rgba(15, 23, 42, .13);
+}
+
+.ks-card-left {
+  top: 10px;
+  left: 0;
+}
+
+.ks-card-right {
+  right: 0;
+  bottom: 15px;
+}
+
+.ks-floating-icon {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: #eff6ff;
+
+  color: #2563eb;
+}
+
+.ks-floating-card small {
+  display: block;
+
+  color: #64748b;
+
+  font-size: 10px;
+}
+
+.ks-floating-card strong {
+  display: block;
+
+  color: #0f172a;
+
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   SMALL FLOATING ICONS
+========================================================= */
+
+.ks-floating-small {
+  position: absolute;
+
+  z-index: 45;
+
+  width: 46px;
+  height: 46px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border:
+    1px solid #dbeafe;
+
+  border-radius: 14px;
+
+  background:
+    rgba(255, 255, 255, .94);
+
+  color: #2563eb;
+
+  box-shadow:
+    0 15px 30px
+    rgba(15, 23, 42, .12);
+}
+
+.ks-floating-brain {
+  top: 35px;
+  right: 20px;
+}
+
+.ks-floating-data {
+  bottom: 35px;
+  left: 20px;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991px) {
+
+  .ks-hero {
+    padding-top: 75px;
+  }
+
+  .ks-hero-content {
+    max-width: 720px;
+
+    margin: auto;
+
+    padding:
+      45px 0 10px;
+
+    text-align: center;
+  }
+
+  .ks-hero-badge {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ks-hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ks-hero-buttons {
+    justify-content: center;
+  }
+
+  .ks-hero-stats {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ks-hero-visual {
+    max-width: 650px;
+
+    min-height: 590px;
+
+    margin:
+      10px auto 35px;
+  }
+
+  .ks-code-window {
+    width: 82%;
+  }
+
+  .ks-floating-card {
+    transform: scale(.82);
+  }
+
+  .ks-floating-small {
+    transform: scale(.82);
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+  .ks-hero {
+    min-height: auto;
+
+    padding-top: 70px;
+
+    overflow-x: hidden;
+  }
+
+  .ks-hero-content {
+    padding:
+      30px 12px 5px;
+  }
+
+  .ks-hero-badge {
+    font-size: 11px;
+
+    padding:
+      8px 13px;
+  }
+
+  .ks-hero-title {
+    font-size:
+      clamp(36px, 10vw, 48px);
+
+    letter-spacing: -2.4px;
+  }
+
+  .ks-hero-description {
+    font-size: 13px;
+  }
+
+  .ks-hero-buttons {
+    gap: 8px;
+  }
+
+  .ks-hero-btn {
+    min-height: 46px;
+
+    padding:
+      0 15px;
+
+    font-size: 11px;
+  }
+
+  .ks-hero-stats {
+    margin-top: 28px;
+  }
+
+  .ks-hero-stat h3 {
+    font-size: 21px;
+  }
+
+  .ks-hero-stat p {
+    font-size: 9px;
+  }
+
+
+  /* VISUAL */
+
+  .ks-hero-visual {
+    min-height: 485px;
+
+    margin:
+      0 auto 25px;
+  }
+
+
+  /* CODE */
+
+  .ks-code-window {
+    width: 88%;
+
+    min-height: 410px;
+
+    margin-top: 45px;
+
+    padding: 12px;
+
+    border-radius: 21px;
+  }
+
+
+  /* ROBOT */
+
+  .ks-code-robot-background {
+    display: flex;
+  }
+
+  .ks-code-robot-background .ks-mini-robot {
+    transform: scale(.50);
+
+    opacity: .22;
+  }
+
+
+  /* CODE */
+
+  .ks-code-text {
+    font-size: 8px;
+
+    line-height: 1.85;
+  }
+
+  .ks-code-content {
+    min-height: 220px;
+  }
+
+  .ks-code-area {
+    height: 210px;
+  }
+
+
+  /* CARDS */
+
+  .ks-floating-card {
+    width: 145px;
+
+    min-height: 55px;
+
+    padding: 8px;
+
+    gap: 7px;
+
+    border-radius: 12px;
+
+    transform: scale(.72);
+  }
+
+  .ks-floating-card small {
+    font-size: 7px;
+  }
+
+  .ks-floating-card strong {
+    font-size: 8px;
+  }
+
+  .ks-floating-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .ks-card-left {
+    left: -18px;
+  }
+
+  .ks-card-right {
+    right: -18px;
+  }
+
+
+  /* SMALL ICONS */
+
+  .ks-floating-small {
+    width: 34px;
+    height: 34px;
+
+    transform: scale(.75);
+  }
+
+  .ks-floating-brain {
+    top: 25px;
+    right: -5px;
+  }
+
+  .ks-floating-data {
+    bottom: 35px;
+    left: -5px;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 430px) {
+
+  .ks-hero-title {
+    font-size:
+      clamp(33px, 9.7vw, 42px);
+  }
+
+  .ks-hero-description {
+    font-size: 12px;
+  }
+
+  .ks-hero-visual {
+    min-height: 455px;
+  }
+
+  .ks-code-window {
+    width: 91%;
+
+    min-height: 390px;
+
+    padding: 10px;
+  }
+
+  .ks-code-robot-background .ks-mini-robot {
+    transform: scale(.43);
+
+    opacity: .24;
+  }
+
+  .ks-code-text {
+    font-size: 7px;
+  }
+
+  .ks-code-area {
+    height: 195px;
+  }
+
+  .ks-floating-card {
+    transform: scale(.62);
+  }
+
+  .ks-card-left {
+    left: -27px;
+  }
+
+  .ks-card-right {
+    right: -27px;
+  }
+}
+
+
+/* =========================================================
+   VERY SMALL
+========================================================= */
+
+@media (max-width: 360px) {
+
+  .ks-hero-btn {
+    padding:
+      0 11px;
+
+    font-size: 10px;
+  }
+
+  .ks-hero-stat h3 {
+    font-size: 18px;
+  }
+
+  .ks-hero-visual {
+    min-height: 430px;
+  }
+
+  .ks-code-window {
+    width: 94%;
+
+    min-height: 370px;
+  }
+
+  .ks-code-robot-background .ks-mini-robot {
+    transform: scale(.39);
+
+    opacity: .25;
+  }
+
+  .ks-code-text {
+    font-size: 6.5px;
+  }
+
+  .ks-code-area {
+    height: 180px;
+  }
+
+  .ks-floating-card {
+    transform: scale(.55);
+  }
+
+  .ks-card-left {
+    left: -34px;
+  }
+
+  .ks-card-right {
+    right: -34px;
+  }
+}
